@@ -1,0 +1,150 @@
+
+QUESTION 1
+
+How do TCP and UDP differ in the way that they establish a connection between two endpoints?
+
+A. TCP uses the three-way handshake, and UDP does not guarantee message delivery.
+
+B. TCP uses synchronization packets, and UDP uses acknowledgment packets.
+
+C. UDP provides reliable message transfer, and TCP is a connectionless protocol.
+
+D. UDP uses SYN, SYN ACK, and FIN bits in the frame header while TCP uses SYN, SYN ACK, and ACK bits.
+
+Correct Answer: A
+
+
+QUESTION 2
+What is the default behavior of a Layer 2 switch when a frame with an unknown destination MAC address is received?
+
+A.The Layer 2 switch forwards the packet and adds the destination MAC address to its MAC address table.
+
+B.The Layer 2 switch sends a copy of a packet to CPU for destination MAC address learning.
+
+C.The Layer 2 switch floods packets to all ports except the receiving port in the given VLAN.
+
+D.The Layer 2 switch drops the received frame.
+
+Correct Answer: C
+
+
+QUESTION 3
+An engineer must configure a /30 subnet between two routes. Which usable IP address and subnet mask combination meets this criteria?
+
+A. interface e0/0
+description to XX-AXXX:XXKXX
+ip address 10.2.1.3 255.255.255.252
+
+B. interface e0/0
+description to XX-AXXX:XXKXX
+ip address 192.168.1.1 255.255.255.248
+
+C. interface e0/0
+description to XX-AXXX:XXKXX
+ip address 172.16.1.4 255.255.255.248
+
+D. interface e0/0
+
+description to XX-AXXX:XXKXX
+ip address 209.165.201.2 225.255.255.252
+
+Correct Answer:D
+
+
+QUESTION 4
+What occurs to frames during the process of frame flooding?
+
+A.Frames are sent to all ports, including those that are assigned to other VLANs.
+
+B.Frames are sent to every port on the switch that has a matching entry in MAC address table.
+
+C.Frames are sent to every port on the switch in the same VLAN except from the originating port.
+
+D.Frames are sent to every port on the switch in the same VLAN.
+
+Correct Answer:C
+
+QUESTION 5
+Which function does the range of private IPv4 addresses perform?
+
+A.allows multiple companies to each use the same addresses without conflicts
+
+B.provides a direct connection for hosts from outside of the enterprise network
+
+C.ensures that NAT is not required to reach the Internet with private range addressing
+
+D.enables secure communications to the Internet for all external hosts
+
+Correct Answer: C
+
+QUESTION 6
+How do TCP and UDP differ in the way they provide reliability for delivery of packets?
+
+A. TCP does not guarantee delivery or error checking to ensure that there is no corruption of data, UDP provides message acknowledgement and retransmits data if lost.
+
+B. TCP provides flow control to avoid overwhelming a receiver by sending too many packets at once, UDP sends packets to the receiver in a continuous stream without checking.
+
+C. TCP is a connectionless protocol that does not provide reliable delivery of data; UDP is a connection-oriented protocol that uses sequencing to provide reliable delivery.
+
+D. TCP uses windowing to deliver packets reliably; UDP provides reliable message transfer between hosts by establishing a three-way handshake.
+
+Correct Answer:B
+
+QUESTION 7
+What are two descriptions of three-tier network topologies? (Choose two.)
+
+A. The distribution layer runs Layer 2 and Layer 3 technologies
+
+B. The network core is designed to maintain continuous connectivity when devices fail
+
+C. The access layer manages routing between devices in different domains
+
+D. The core layer maintains wired connections for each host
+
+E. The core and distribution layers perform the same functions
+
+Correct Answer:A & B 
+
+QUESTION 8
+
+The SW1 interface g0/1 is in the down/down state. Which two configurations are valid reasons for the interface condition? (Choose two.)
+
+A. There is a protocol mismatch
+
+B. There is a duplex mismatch
+
+C. The interface is shut down
+
+D. The interface is error-disabled
+
+E. There is a speed mismatch
+
+Correct Answer: C & D
+
+
+
+
+ QUESTION 9
+What are two roles of the Dynamic Host Configuration Protocol (DHCP)? (Choose two.)
+
+A.The DHCP server assigns IP addresses without requiring the client to renew them.
+
+B.The DHCP server leases client IP addresses dynamically.
+
+C.The DHCP client can request up to four DNS server addresses.
+
+D.The DHCP server offers the ability to exclude specific IP addresses from a pool of IP addresses.
+
+E.The DHCP client maintains a pool of IP addresses it can assign.
+
+Correct Answer:B & D
+
+QUESTION 10
+
+A packet is destined for 10.10.1.22. Which static route does the router choose to forward the packet?
+A. ip route 10.10.1.0 255.255.255.240 10.10.255.1
+B. ip route 10.10.1.20 255.255.255.252 10.10.255.1
+C. ip route 10.10.1.16 255.255.255.252 10.10.255.1
+D. ip route 10.10.1.20 255.255.255.254 10.10.255.1
+
+Correct Answer:B
